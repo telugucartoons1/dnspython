@@ -64,7 +64,7 @@ try:
     import httpcore._backends.sync
     import httpx
 
-    _CoreNetworkBackend = httpcore.backends.base.NetworkBackend
+    _CoreNetworkBackend = httpcore._backends.base.NetworkBackend
     _CoreSyncStream = httpcore._backends.sync.SyncStream
 
     _have_httpx = True
