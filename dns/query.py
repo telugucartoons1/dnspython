@@ -61,6 +61,7 @@ _have_httpx = False
 _have_http2 = False
 try:
     import httpcore
+    import httpcore._backends.base
     import httpcore._backends.sync
     import httpx
 
